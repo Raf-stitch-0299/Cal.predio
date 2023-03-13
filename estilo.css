@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+body{
+   background-image: url(https://i.pinimg.com/originals/0b/7b/17/0b7b17ffcc9ff327f4252606cd8cc945.jpg);
+   background-position: center;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#calculator{
+    max-width: 360px;
+    background-color: rgb(9, 6, 22);
+    background-position: center;
+    padding: 50px;
+    border-radius: 1%;
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
+    bottom: 200px;
+}
+
+.teto{
+    position: absolute;
+    height: 20px;
+    width: 342px;
+    background-color:rgb(9, 6, 22);
+    bottom: 580px;
+    left: 504px;
+    
+}
+
+#display{
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding: 18px;
+    color: rgb(255, 208, 0);
+    background-color: rgb(42, 45, 61);
+    border: none;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+button{
+    width: calc(25% - 10px) ;
+    height: 50px;
+    font-size: 15px;
+    margin: 10px 5px; 
+    border: none;
+    float: left;
+    background:  rgb(255, 217, 4);
+    box-shadow: 3px 3px 12px 4px  
+    rgb(255, 196, 4);
+}
+
+.operator{
+    box-shadow: 3px 3px 12px 4px  
+    rgb(0, 0, 0);
+}
+
+#ac{
+    background-color: rgb(42, 45, 61);
+    box-shadow: 3px 3px 12px 4px  
+    rgb(0, 0, 0);
+}
+
+#de{
+    background-color: rgb(42, 45, 61);
+    box-shadow: 3px 3px 12px 4px  
+    rgb(0, 0, 0);
+}
+
+
+
+.equal{
+    width: calc(50% - 10px);
+    background-color: rgb(42, 45, 61);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+button:active{
+    transform: scale(1.5)
+}
+
+footer{
+  
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0vh;
+    left: 0;
+    text-align: center;
+    padding: 5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: #ffffff;
+  font-weight: 200;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  }
